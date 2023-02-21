@@ -1,0 +1,23 @@
+﻿<Page x:Class="Examiner.CaseList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Examiner"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="CaseList">
+
+    <Grid>
+        <Image Source="/assets/images landscape/splash/bg.jpg" Stretch="Fill"/>
+        <Label Content="Case List" FontSize="56" FontFamily="./assets/fonts/#Montserrat" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF36485C"/>
+        <Image Margin="94,70,1739,944" Source="/assets/images/general/header_back.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Grid HorizontalAlignment="Left" Height="645" Margin="138,210,0,0" VerticalAlignment="Top" Width="1680">
+            <local:CaseItem Margin="0,-10,865,190" />
+            <local:CaseItem Margin="866,-10,10,190" />
+            <local:CaseItem Margin="0,497,865,-317" />
+            <local:CaseItem Margin="866,497,10,-317" />
+        </Grid>
+
+    </Grid>
+</Page>

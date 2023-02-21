@@ -1,0 +1,93 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\images landscape\capture\button_burst.png" />
+    <None Remove="assets\images landscape\capture\button_photo.png" />
+    <None Remove="assets\images landscape\capture\button_video1.png" />
+    <None Remove="assets\images landscape\capture\capture.jpg" />
+    <None Remove="assets\images landscape\general\navbar_capture0.jpg" />
+    <None Remove="assets\images landscape\general\navbar_capture1.jpg" />
+    <None Remove="assets\images landscape\general\navbar_capture2.jpg" />
+    <None Remove="assets\images landscape\general\navbar_casedetails1.jpg" />
+    <None Remove="assets\images landscape\general\navbar_casedetails2.jpg" />
+    <None Remove="assets\images landscape\general\navbar_caselist1.jpg" />
+    <None Remove="assets\images landscape\general\navbar_caselist2.jpg" />
+    <None Remove="assets\images landscape\general\navbar_mediareview0.jpg" />
+    <None Remove="assets\images landscape\general\navbar_mediareview1.jpg" />
+    <None Remove="assets\images landscape\general\navbar_mediareview2.jpg" />
+    <None Remove="assets\images landscape\splash\bg.jpg" />
+    <None Remove="assets\images landscape\splash\logo.png" />
+    <None Remove="assets\images\capture\button_burst.png" />
+    <None Remove="assets\images\capture\button_photo.png" />
+    <None Remove="assets\images\capture\button_video1.png" />
+    <None Remove="assets\images\case details\button_archive.png" />
+    <None Remove="assets\images\case details\button_complete.png" />
+    <None Remove="assets\images\case details\button_delete.png" />
+    <None Remove="assets\images\case details\button_save.png" />
+    <None Remove="assets\images\case details\gallery_addmedia.png" />
+    <None Remove="assets\images\case details\gallery_video.png" />
+    <None Remove="assets\images\case details\icon_edit.png" />
+    <None Remove="assets\images\case details\separator.png" />
+    <None Remove="assets\images\general\header_back.png" />
+    <None Remove="assets\images\general\icon_close.png" />
+    <None Remove="assets\images\media review\gallery_addmedia.png" />
+    <None Remove="assets\images\new case\button_savestartcase.png" />
+    <None Remove="assets\images\start\button_caselist.png" />
+    <None Remove="assets\images\start\button_startnew.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\images landscape\capture\button_burst.png" />
+    <Content Include="assets\images landscape\capture\button_photo.png" />
+    <Content Include="assets\images landscape\capture\button_video1.png" />
+    <Content Include="assets\images landscape\capture\capture.jpg" />
+    <Content Include="assets\images landscape\general\navbar_capture0.jpg" />
+    <Content Include="assets\images landscape\general\navbar_capture1.jpg" />
+    <Content Include="assets\images landscape\general\navbar_capture2.jpg" />
+    <Content Include="assets\images landscape\general\navbar_casedetails1.jpg" />
+    <Content Include="assets\images landscape\general\navbar_casedetails2.jpg" />
+    <Content Include="assets\images landscape\general\navbar_caselist1.jpg" />
+    <Content Include="assets\images landscape\general\navbar_caselist2.jpg" />
+    <Content Include="assets\images landscape\general\navbar_mediareview0.jpg" />
+    <Content Include="assets\images landscape\general\navbar_mediareview1.jpg" />
+    <Content Include="assets\images landscape\general\navbar_mediareview2.jpg" />
+    <Content Include="assets\images landscape\splash\bg.jpg" />
+    <Content Include="assets\images landscape\splash\logo.png" />
+    <Content Include="assets\images\capture\button_burst.png" />
+    <Content Include="assets\images\capture\button_photo.png" />
+    <Content Include="assets\images\capture\button_video1.png" />
+    <Content Include="assets\images\case details\button_archive.png" />
+    <Content Include="assets\images\case details\button_complete.png" />
+    <Content Include="assets\images\case details\button_delete.png" />
+    <Content Include="assets\images\case details\button_save.png" />
+    <Content Include="assets\images\case details\gallery_addmedia.png" />
+    <Content Include="assets\images\case details\gallery_video.png" />
+    <Content Include="assets\images\case details\icon_edit.png" />
+    <Content Include="assets\images\case details\separator.png" />
+    <Content Include="assets\images\general\header_back.png" />
+    <Content Include="assets\images\general\icon_close.png" />
+    <Content Include="assets\images\media review\gallery_addmedia.png" />
+    <Content Include="assets\images\new case\button_savestartcase.png" />
+    <Content Include="assets\images\start\button_caselist.png" />
+    <Content Include="assets\images\start\button_startnew.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3-beta1" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="CaseItem.xaml">
+      <CustomToolNamespace>Examiner</CustomToolNamespace>
+    </Page>
+  </ItemGroup>
+
+</Project>
